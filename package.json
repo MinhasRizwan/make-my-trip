@@ -1,0 +1,41 @@
+{
+  "name": "paktrips",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "latest",
+    "@radix-ui/react-checkbox": "latest",
+    "@radix-ui/react-select": "latest",
+    "@types/nodemailer": "^6.4.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "next": "15.2.4",
+    "nodemailer": "latest",
+    "openai": "^4.0.0",
+    "react": "^19",
+    "react-dom": "^19",
+    "stripe": "^13.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8.5",
+    "prisma": "^5.0.0",
+    "typescript": "^5"
+  }
+}
